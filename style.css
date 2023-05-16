@@ -1,0 +1,48 @@
+body {
+    margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+nav {
+    min-height:8vh;
+    background-color:aqua;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 1.0em;
+    display: flex;
+    float: right;
+}
+
+nav ul li {
+    float: right;
+    margin-left: 0.5em;
+    padding: 1em;
+}
+
+nav ul a {
+    text-decoration: none;
+    font: size 1.5em;
+    color: white;
+}
+
+nav ul a:hover {
+    color: black;
+}
+
+.jumbotron {
+    text-align: center;
+    min-height: 90vh;
+    background-image: url("/images/pexels-engin-akyurt-1487511.jpg");
+    background-size: cover;
+    padding: 10vh;
+}
+
+#recents { 
+    background-color:aqua;
+}
+
+.intro {
+    text-emphasis-color: white;
+}
